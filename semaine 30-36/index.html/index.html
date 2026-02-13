@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HonoPs Planification Firebase</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>HonoPs Planification Firebase</h1>
+
+<div class="controls">
+<input type="text" id="searchInput" placeholder="Rechercher...">
+<select id="filterSemaine"><option value="">Toutes les semaines</option></select>
+<button onclick="addRow()">Ajouter ligne</button>
+<button onclick="resetFilters()">Réinitialiser filtres</button>
+</div>
+
+<div class="table-container">
+<table id="planningTable">
+<thead>
+<tr>
+<th>Semaine</th>
+<th>Jour</th>
+<th>Outil</th>
+<th>Fichier / Page</th>
+<th>Code / Contenu</th>
+<th>Objectif</th>
+<th>Résultat attendu</th>
+<th>Statut</th>
+<th>Actions</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>

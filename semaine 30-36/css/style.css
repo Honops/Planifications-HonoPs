@@ -1,0 +1,16 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f4; margin:0; padding:20px; }
+h1 { text-align:center; margin-bottom:20px; }
+.table-container { overflow-x:auto; background:#fff; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); padding:10px; }
+table { border-collapse: collapse; width:100%; min-width:1000px; }
+th, td { border:1px solid #ddd; padding:8px; text-align:center; }
+th { background-color:#1e40af; color:#fff; position:sticky; top:0; }
+tr:nth-child(even){background-color:#f9f9f9;}
+tr:hover {background-color:#e0e7ff;}
+input, select, button { margin:5px; padding:5px 10px; border-radius:5px; border:1px solid #ccc; }
+button { background-color:#2563eb; color:#fff; border:none; cursor:pointer; }
+button:hover {background-color:#1e40af;}
+.controls { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-bottom:10px; }
+.editable { background-color:#fef9c3; }
+.status { padding:3px 8px; border-radius:5px; color:#fff; cursor:pointer; }
+.status.Premium { background-color:#dc2626; }
+.status.Gratuit { background-color:#16a34a; }
