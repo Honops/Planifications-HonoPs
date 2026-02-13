@@ -1,0 +1,62 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planification HonoPs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Planification HonoPs : Semaine 23 → Semaine 36</h1>
+    </header>
+
+    <div class="controls">
+        <label for="weekFilter">Filtrer par semaine :</label>
+        <select id="weekFilter">
+            <option value="all">Toutes</option>
+            <option value="23">Semaine 23</option>
+            <option value="24">Semaine 24</option>
+            <option value="25">Semaine 25</option>
+            <option value="26">Semaine 26</option>
+            <option value="27">Semaine 27</option>
+            <option value="28">Semaine 28</option>
+            <option value="29">Semaine 29</option>
+        </select>
+    </div>
+
+    <table id="planningTable">
+        <thead>
+            <tr>
+                <th>Jour</th>
+                <th>Outil</th>
+                <th>Fichier / Page</th>
+                <th>Code / Contenu</th>
+                <th>Objectif</th>
+                <th>Résultat attendu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Exemple de ligne semaine 23 -->
+            <tr data-week="23">
+                <td contenteditable="true">111</td>
+                <td contenteditable="true">VS Code</td>
+                <td contenteditable="true">style.css</td>
+                <td contenteditable="true">Media queries pour tous écrans</td>
+                <td contenteditable="true">Responsive complet</td>
+                <td contenteditable="true">Pages lisibles sur mobile, tablette et desktop</td>
+            </tr>
+            <tr data-week="23">
+                <td contenteditable="true">112</td>
+                <td contenteditable="true">VS Code</td>
+                <td contenteditable="true">profile.html</td>
+                <td contenteditable="true">Ajuster images et boutons</td>
+                <td contenteditable="true">Profil responsive</td>
+                <td contenteditable="true">Images et boutons s’adaptent correctement</td>
+            </tr>
+            <!-- Ajoute ici toutes les autres lignes -->
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
