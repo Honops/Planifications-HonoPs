@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e293b;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+  background: #334155;
+}
+
+tr:nth-child(even) {
+  background: #0f172a;
+}
