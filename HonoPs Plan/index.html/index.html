@@ -1,0 +1,48 @@
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>HonoPs Elite Plan</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="loginScreen" class="login-screen">
+    <h2>Connexion Admin</h2>
+    <input type="password" id="adminPassword" placeholder="Mot de passe">
+    <button onclick="login()">Se connecter</button>
+</div>
+
+<div id="app" class="hidden">
+
+<header>
+    <h1>HonoPs – Plan Elite</h1>
+    <div class="stats">
+        <span id="daysRemaining"></span>
+        <span id="progressPercent"></span>
+    </div>
+</header>
+
+<div class="progress-bar">
+    <div id="progressFill"></div>
+</div>
+
+<section class="board">
+    <div class="column">
+        <h2>À faire</h2>
+        <div id="todo" class="dropzone"></div>
+    </div>
+    <div class="column">
+        <h2>En cours</h2>
+        <div id="inprogress" class="dropzone"></div>
+    </div>
+    <div class="column">
+        <h2>Terminé</h2>
+        <div id="done" class="dropzone"></div>
+    </div>
+</section>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

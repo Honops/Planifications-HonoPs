@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f4f6;
+}
+.hidden {
+    display: none;
+}
+
+.login-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.login-screen input {
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    background: #111827;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+}
+
+#progressFill {
+    height: 100%;
+    width: 0%;
+    background: #22c55e;
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    background: #e5e7eb;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.task {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: grab;
+}
